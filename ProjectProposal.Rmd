@@ -1,0 +1,15 @@
+
+# Capstone Project Proposal
+## First Time User Airbnb User Analysis
+### by William Justice
+
+1. What is the problem you want to solve?
+	The problem to be solved is what metrics specified from first time Airbnb customer reviews from the Seattle WA area result in a higher overall rating or user experience. Put simply, what are first time Airbnb users looking for in order to give a high rating?
+2. Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+	The client in this case is Airbnb. With the information generated from this analysis Airbnb will be able to target first time users based on the needs of former first time users in a location. Specifically, Airbnb will be able to recommend or suggest specific units for first time users. Although the analysis is specific to Seattle it will also provide a structure for how to recognize the needs of first time users in other large urban areas.
+3. What data are you going to use for this? How will you acquire this data?
+	The data used for this analysis is from Kaggle. The data was scraped from the Airbnb website. This data includes but is not limited to all user reviews, comments, price points, dates, ratings, host information, unit information, and zip code.  
+4. In brief, outline your approach to solving this problem (knowing that this might change later).
+	The outline of the approach to solve this problem is based upon the HDEIP framework. The first step will be to produce multiple hypotheses. The next step will be data integration. Third is exploratory data analysis. Next is model insight (what story do the visualizations tell). Finally is the presentation. 
+5. What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+	Deliverables will include wrangled/ cleaned data, statistical analysis and visualizations of data, creating a story that represents the data, applying machine learning, final submission, and finally presentation. 
