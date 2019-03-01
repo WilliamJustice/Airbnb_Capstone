@@ -1,0 +1,13 @@
+Clean up your column names to be simple, short and descriptive
+*** The First time users of Airbnb in Seattle were detected with the algorithm -
+  FIRST <- DFNoFilt %>%
+  + filter(str_detect(DFNoFilt$Comments, paste(c("first time", "first experience", "First time", "First experience"), collapse = '|')))
+*** This algorithm did allow for a small number of first time visitors to Seattle as opposed to the First time users of the app. 
+    It was decided that this data was still relevant.
+For each column:
+Check for missing values and decide what you want to do about them.
+*** There were a large number of missing values in the master dataset. Once reduced to "First Time Users" there were only a small amount of missing values. All missing value associated with the hypotheses were removed (23 Rows of over 2300). This data was removed in order to avoid skew in model insight phase. 
+Make sure the values in each column make sense. If you find values that don't, decide what you want to do about those.
+*** All values in the data made sense and remained relevant.
+Look for outliers (values that are too small or too large). Do they make sense? Do you want to keep them in the data set?
+*** Only 3 outliers were detected in price point of Initial users. These outliers were removed to avoid data insight skew. There were outliers detected in Review Scores. None were above the perfect 100 score but were entered as low review score. These low Review Scores were kept in the cleaned data because this information was scraped from the Airbnb website and directly reflected actual Review Scores.
